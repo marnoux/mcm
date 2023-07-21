@@ -8,15 +8,35 @@ import {
 
 const Header = () => {
   return (
-    <div className="flex justify-between bg-[#e1f0fb] w-auto h-auto p-4 px-8 items-center">
+    <div className="flex justify-between bg-[#e1f0fb] w-auto h-auto py-2 px-8 items-center">
       <a href="#">
-        <img src="/img/logo.png" alt="logo" width={200} height={200} />
+        <img src="/img/logo.png" alt="logo" width={250} height={200} />
       </a>
       <div>
         <ul className="flex align-center gap-12">
-          <li className="flex align-center gap-2 text-align-center animateHover hover:cursor-pointer hover:text-[#747bff] hover:underline">
-            Store
-            <ChevronDownIcon className="align-center h-auto w-3" />
+          <li className="group flex align-center gap-2 text-align-center  hover:cursor-pointer animateHover">
+            <div className="flex justify-center">
+              <div className="flex gap-1">
+                Store
+                <ChevronDownIcon className="align-center h-auto w-4 transition duration-300 ease-in-out  group-hover:rotate-180 group:hover:translate-y-2 translate-y-0.5" />
+              </div>
+              <div className="rounded m-6 py-3 px-6 w-96 absolute z-auto  bg-[#f3f1f0] hidden group group-hover:block top-2">
+                <ul className="overflow-hidden w-full">
+                  <li className="mt-2">
+                    <button className="w-full py-2 px-6">Decal kits</button>
+                  </li>
+                  <li className="mt-2">
+                    <button className="w-full py-2 px-6">Estate agent products</button>
+                  </li>
+                  <li className="mt-2">
+                    <button className="w-full py-2 px-6">Stickers and signboards</button>
+                  </li>
+                  <li className="mt-2">
+                    <button className="w-full py-2 px-6">Vehicle branding</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </li>
           <li className="animateHover hover:underline">
             <a href="/#about">About Us</a>
