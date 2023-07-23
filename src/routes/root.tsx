@@ -5,27 +5,27 @@ import {
   ShoppingBagIcon,
 } from '@heroicons/react/24/outline';
 
-const Header = () => {
+const Root = () => {
   return (
     <div className="flex justify-between bg-[#e1f0fb] w-auto h-auto py-2 px-8 items-center">
-      <a href="/">
-        <img className="p-1" src="/img/logo.png" alt="logo" width={250} height={200} />
+      <a href="#">
+        <img src="/img/logo.png" alt="logo" width={250} height={200} />
       </a>
       <div>
         <ul className="flex align-center gap-12">
           <li className="group flex align-center gap-2 text-align-center  hover:cursor-pointer animateHover">
             <div className="flex justify-center">
-              <a href="store" className="flex gap-1">
+              <a className="flex gap-1">
                 Store
                 <ShoppingBagIcon className="align-center h-auto w-4 transition duration-300 ease-in-out" />
               </a>
             </div>
           </li>
           <li className="animateHover hover:underline">
-            <a href="/#about">About Us</a>
+            <a href="#about">About Us</a>
           </li>
           <li className="animateHover hover:underline">
-            <a href="/#contact">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -39,7 +39,10 @@ const Header = () => {
           </a>
         </div>
         <div className="flex gap-4 pl-6">
-          <a href="store">
+          <a href="">
+            <MagnifyingGlassIcon className="h-7 w-7 animateHover" />
+          </a>
+          <a href="https://decalsonline.co.za/" target="_blank">
             <ShoppingBagIcon className="h-7 w-7 animateHover" />
           </a>
         </div>
@@ -48,4 +51,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Root;
