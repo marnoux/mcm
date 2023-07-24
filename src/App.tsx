@@ -3,11 +3,13 @@ import Contact from './components/Contact';
 import Footer from './components/Layout/Footer';
 import Hero from './components/Hero';
 import Header from './components/Layout/Header';
-import { Route, Routes } from 'react-router';
+import { Route, Routes, useLocation } from 'react-router';
 import Store from './components/Store';
 import GoToTop from './components/GoToTop';
 
 const App = () => {
+  const location = useLocation();
+
   return (
     <div className="flex flex-col h-[100vh] min-h-[100vh]">
       <Header />
@@ -32,7 +34,7 @@ const App = () => {
         />
         <Route path="/store" element={<Store />} />
       </Routes>
-      <GoToTop />
+      {location.pathname === '/' && <GoToTop />}
       <Footer />
     </div>
   );

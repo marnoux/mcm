@@ -80,16 +80,16 @@ const Header = () => {
           </div>
         </div>
         {/* Store */}
-        <div className="flex items-center justify-center sm:gap-0 gap-8">
-          <div className="flex sm:gap-2 gap-4">
+        <div className="flex items-center justify-between sm:gap-0 gap-4">
+          <div className="flex sm:gap-2 gap-4  ">
             <a href="tel:+27823363494" target="_blank">
               <PhoneIcon className="sm:h-6 sm:w-6 h-7 w-7 animateHover" />
             </a>
             <a href="mailto:arno@mcmpromotions.co.za" target="_blank">
-              <EnvelopeIcon className="animateHover sm:h-6 sm:w-6 h-7 w-7" />
+              <EnvelopeIcon className="animateHover sm:h-6 sm:w-6 h-7 w-7 " />
             </a>
           </div>
-          <Link className="flex items-center" to="store">
+          <Link className="flex items-center " to="store">
             <ShoppingBagIcon className="h-7 w-7 sm:h-6 sm:w-6 animateHover" />
           </Link>
         </div>

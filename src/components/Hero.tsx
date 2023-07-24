@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
       <div>
         <a href="https://decalsonline.co.za" className="animateHover" target="_blank">
-          <button className="rounded w-full py-2 px-4 animateHover max-w-xs text-gray-500  border border-gray-500 hover:border-purple-500 hover:text-purple-500">
+          <button className="rounded w-full py-2 px-4 animateHover max-w-xs text-gray-500  border border-gray-500 hover:border-sky-500 hover:text-sky-500">
             Shop now
           </button>
         </a>

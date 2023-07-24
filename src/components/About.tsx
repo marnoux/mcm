@@ -13,21 +13,29 @@ const About = () => {
       <div className="flex flex-col gap-5 w-full max-w-sm">
         <h1 className="text-2xl font-bold">Our promise</h1>
         <p>
-          Since 1997, mcm Promotions strove to deliver the best possible solution to your company`s
-          branding needs. This is achieved through honest, reliable service and expertise by a team
-          of innovative branding experts.
+          Established in 1997, mcm Promotions has been unwavering in its commitment to offering
+          unparalleled solutions for your company's branding requirements. With a steadfast focus on
+          integrity, reliability, and a team of visionary branding experts, we take pride in
+          delivering results that consistently surpass expectations.
         </p>
         <p>
-          We provide high quality vehicle grade decals, vehicle branding solutions and guaranteed to
-          exceed your expectations.
+          Our core offerings encompass premium vehicle grade decals and cutting-edge vehicle
+          branding solutions, all of which are backed by our steadfast guarantee to exceed your
+          expectations. Each order is meticulously handled from inception to completion by a
+          dedicated representative, ensuring a personalized and seamless experience for our valued
+          customers on every interaction.
         </p>
         <p>
-          All orders is carefully handled from start to finish by a single representative. We want
-          our customers to work with the same friendly person each time they order from us.
+          At mcm Promotions, we pledge the utmost in product excellence, competitive market-related
+          pricing, industry-leading turnaround times, and bespoke solutions tailored to your exact
+          needs. Our commitment to your satisfaction knows no bounds, and we guarantee a final
+          product that not only aligns with your vision but also arrives at your doorstep,
+          hassle-free.
         </p>
         <p>
-          We promise the highest quality products, market related costs, the fastest turnaround time
-          and tailor made products to suit your every need. Delivered to your door.
+          Discover the mcm Promotions advantage, and allow us to elevate your brand to unprecedented
+          heights with our exceptional branding solutions. Contact us today to embark on a journey
+          that will transform your company's image and drive success like never before.
         </p>
       </div>
     </div>
