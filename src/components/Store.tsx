@@ -6,12 +6,11 @@ const Store = () => {
           🚀 We've UPGRADED to a new and improved{' '}
           <a
             className="underline hover:cursor-pointer hover:text-sky-500 transition-colors duration-300"
-            href="decalsonline.co.za"
+            href="https://decalsonline.co.za/"
             target="_blank"
           >
-            Online Store
+            Online Store!
           </a>
-          !
         </h1>
         <div className="flex ">
           <div className="flex flex-col justify-start align-center text-center gap-8 px-6 rounded-lg shadow-2xl shadow-black mx-6 my-4 py-2 bg-transparent w-1/2 hover:-skew-y-3 transition-transform duration-200">

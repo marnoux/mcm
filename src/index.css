@@ -24,6 +24,10 @@
     background-color: #ffffff;
   }
 
+  a:hover{
+    color: #0ea5e9
+  }
+
   button {
     background-color: #f9f9f9;
   }

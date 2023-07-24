@@ -6,9 +6,11 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
+  const { pathname } = useLocation();
+
   const [showNav, setShowNav] = useState(false);
 
   const toggleNav = () => setShowNav(!showNav);
@@ -89,7 +91,11 @@ const Header = () => {
               <EnvelopeIcon className="animateHover sm:h-6 sm:w-6 h-7 w-7 " />
             </a>
           </div>
-          <Link className="flex items-center " to="store">
+          <Link
+            className="flex items-center"
+            to={pathname === '/store' ? 'https://decalsonline.co.za/' : 'store'}
+            target={pathname === '/store' ? '_blank' : undefined}
+          >
             <ShoppingBagIcon className="h-7 w-7 sm:h-6 sm:w-6 animateHover" />
           </Link>
         </div>
