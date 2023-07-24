@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Header from './components/Layout/Header';
 import { Route, Routes } from 'react-router';
 import Store from './components/Store';
+import GoToTop from './components/GoToTop';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         />
         <Route path="/store" element={<Store />} />
       </Routes>
+      <GoToTop />
       <Footer />
     </div>
   );

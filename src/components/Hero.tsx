@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-start align-center text-center gap-20 bg-gradient-to-r from-sky-500 to-indigo-500 pb-14">
+    <div className="flex flex-col justify-start align-center text-center gap-20  bg-gradient-to-r from-sky-500 to-indigo-500 opacity-80 pb-14">
       <div className="mt-14 z-10 px-1">
         <h2 className="text-4xl shadowText">
           We provide Vehicle Branding, Retail Store and Office Branding.

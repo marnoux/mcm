@@ -4,9 +4,6 @@ import { PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline';
 const Contact = () => {
   return (
     <div className="flex sm:flex-col lg:flex-row sm:text-center justify-around gap-12 p-12 bg-[#ffffff]">
-      <div className="rounded-full">
-        <AddressMap />
-      </div>
       <div className="flex flex-col gap-5 max-w-4xl">
         <h1 className="text-2xl font-bold">Contact Us</h1>
         <p>We deliver everywhere in South Africa</p>
@@ -42,6 +39,9 @@ const Contact = () => {
             <EnvelopeIcon className="align-center h-auto w-3 " /> arno@mcmpromotions.co.za
           </a>
         </div>
+      </div>
+      <div className="rounded-full">
+        <AddressMap />
       </div>
     </div>
   );
