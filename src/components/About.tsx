@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className="flex justify-evenly gap-12 p-12 h-full bg-[#f3f1f0]">
-      <div className="flex">
+    <div className="flex flex-row justify-evenly gap-12 p-12 h-full bg-[#f3f1f0]">
+      <div className="flex sm:hidden lg:visible">
         <img
           className="w-96 h-96 rounded-full"
           src="/img/bigLogo.webp"
@@ -10,7 +10,7 @@ const About = () => {
           height={1200}
         />
       </div>
-      <div className="flex flex-col gap-5 w-64">
+      <div className="flex flex-col gap-5 w-full max-w-sm">
         <h1 className="text-2xl font-bold">Our promise</h1>
         <p>
           Since 1997, mcm Promotions strove to deliver the best possible solution to your company`s
