@@ -5,11 +5,11 @@ const Footer = () => {
       <p className="mb-3">
         Created by{' '}
         <a
-          className="hover:underline text-sky-50 transition-colors duration-200 hover:text-teal-400"
+          className="hover:underline underline transition-colors duration-200 hover:text-teal-400"
           href="https://www.marnoux.dev"
           target="_blank"
         >
-          Marnoux
+          {'<Marnoux />'}
         </a>
       </p>
     </div>

@@ -6,6 +6,7 @@ import Header from './components/Layout/Header';
 import { Route, Routes, useLocation } from 'react-router';
 import Store from './components/Store';
 import GoToTop from './components/GoToTop';
+import ErrorPage from './error-page';
 
 const App = () => {
   const location = useLocation();
@@ -33,6 +34,7 @@ const App = () => {
           }
         />
         <Route path="/store" element={<Store />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       {location.pathname === '/' && <GoToTop />}
       <Footer />
