@@ -19,7 +19,7 @@ const Header = () => {
     <nav>
       <div className="flex justify-between bg-[#e1f0fb] w-auto h-auto py-2 px-8 sm:px-3 items-center">
         {/* Desktop */}
-        <div className="flex justify-between sm:w-full w-2/3 md:visible sm:hidden">
+        <div className="flex justify-between sm:w-full 2xl:w-7/12 w-2/3 md:visible sm:hidden">
           <Link to="/">
             <img className="p-1" src="/img/logo.png" alt="logo" width={250} height={200} />
           </Link>

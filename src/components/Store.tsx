@@ -1,6 +1,6 @@
 const Store = () => {
   return (
-    <div className="flex justify-center bg-gradient-to-r from-sky-500 to-indigo-500">
+    <div className="flex justify-center bg-gradient-to-r from-sky-500/60 to-indigo-500/50 h-full">
       <div className="flex flex-col justify-start align-center text-center gap-8 px-12 rounded-lg shadow-2xl shadow-black mx-12 my-8 py-4 bg-transparent w-full max-w-[75vw]">
         <h1 className="shadowText text-4xl mt-4">
           🚀 We've UPGRADED to a new and improved{' '}
