@@ -13,29 +13,29 @@ const About = () => {
       <div className="flex flex-col gap-5 w-full max-w-sm">
         <h1 className="text-2xl font-bold">Our promise</h1>
         <p>
-          Established in 1997, mcm Promotions has been unwavering in its commitment to offering
-          unparalleled solutions for your company's branding requirements. With a steadfast focus on
-          integrity, reliability, and a team of visionary branding experts, we take pride in
-          delivering results that consistently surpass expectations.
+          Welcome to SSW Signage and Branding! Formerly known as MCM Promotions, we are thrilled to
+          unveil our rebranding and updated identity. Our journey continues with a new name and an
+          unwavering commitment to providing you with exceptional signage and branding solutions.
         </p>
         <p>
-          Our core offerings encompass premium vehicle grade decals and cutting-edge vehicle
-          branding solutions, all of which are backed by our steadfast guarantee to exceed your
-          expectations. Each order is meticulously handled from inception to completion by a
-          dedicated representative, ensuring a personalized and seamless experience for our valued
-          customers on every interaction.
+          Since 1997, we have steadfastly provided top-tier branding solutions. With a focus on
+          integrity and reliability, our expert team consistently exceeds expectations. Specializing
+          in premium vehicle decals and cutting-edge branding, each order receives personalized
+          attention. We ensure product excellence, competitive pricing, swift turnaround, and
+          tailored solutions.
         </p>
         <p>
-          At mcm Promotions, we pledge the utmost in product excellence, competitive market-related
-          pricing, industry-leading turnaround times, and bespoke solutions tailored to your exact
-          needs. Our commitment to your satisfaction knows no bounds, and we guarantee a final
-          product that not only aligns with your vision but also arrives at your doorstep,
-          hassle-free.
+          Effective from the 1st of December 2023, our business will operate under the name SSW
+          Signage and Branding. Alongside this change, our physical address will now be located at:
+          <br />
+          <i>Plot 1, Corner of Road 8 &amp; R555, Eloff AH, Mpumalanga, 2211</i>
         </p>
         <p>
-          Discover the mcm Promotions advantage, and allow us to elevate your brand to unprecedented
-          heights with our exceptional branding solutions. Contact us today to embark on a journey
-          that will transform your company's image and drive success like never before.
+          At SSW Signage and Branding, we remain dedicated to delivering high-quality solutions that
+          exceed your expectations. Count on us for hassle-free, visionary branding that elevates
+          your company&#39;s image and drives success. Reach out today to transform your brand with
+          our exceptional solutions. We appreciate your ongoing support and look forward to
+          continuing this journey together.
         </p>
       </div>
     </div>

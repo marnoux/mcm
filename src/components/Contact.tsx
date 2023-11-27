@@ -13,14 +13,14 @@ const Contact = () => {
         </p>
         <h2 className="text-xl font-bold">Our physical store address</h2>
         <div className="flex flex-col justify-center align-center">
-          <p>209 6th St, Rietkol AH, Delmas, 2200</p>
+          <p>Plot 1 c/o Road No.8 & R555 Eloff AH Eloff, 2211, South Africa</p>
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination=VH43%2BCP+Delmas"
+            href="https://www.google.com/maps/dir/?api=1&destination=RJQR+HP+Delmas"
             target="_blank"
           >
-            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-xl w-48 mt-3 animateHover">
+            {/* <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-xl w-48 mt-3 animateHover">
               Get directions
-            </button>
+            </button> */}
           </a>
         </div>
         <h2 className="text-xl font-bold">Operating hours</h2>
